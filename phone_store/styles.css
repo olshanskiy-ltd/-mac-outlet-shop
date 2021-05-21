@@ -1,0 +1,126 @@
+button {
+    list-style-type: style none;;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    background-color: #f8f6fa;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.cardTopPart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: stretch; */
+    height: 100%;
+}
+
+.card{
+    min-width: 260px;
+    border-radius: 7px;
+    margin: 20px;
+    position: relative;
+    margin: 50px;
+    background-color: #fff;
+    /* padding: 30px, 30px, 0, 10px; */
+    /* padding-top: 20px; */
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+    justify-content: space-between;
+    height: auto;
+    border: 1px, solid, gray;
+    overflow: hidden;
+    box-shadow: 0px 0px 30px rgba(0,0,0, 0.1);
+    transition: box-shadow 0.2s;
+}
+.card:hover {
+    box-shadow: 0px 0px 30px rgba(0,0,0, 0.4);
+}
+.cardFloor{
+    
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 0; */
+    /* position: inherit; */
+    background-color: #dae2ea;
+    height: 50px;
+    padding-bottom: 10px;
+}
+
+.heart{
+    width: 20px;
+    margin-left: 20px;
+    /* background-color: red; */
+    overflow: hidden;
+    /* fill: red; */
+    
+}
+
+.favorite{
+    position: absolute ;
+    right: 20px;
+    top: 20px;
+    /* background-color: red; */
+    overflow: initial;
+    box-shadow: 0px 0px 30px rgba(0,0,0, 0.1);
+    transition: box-shadow 0.2s;
+
+}
+
+.favorite:hover {
+    box-shadow: 0px 0px 30px rgba(0,0,0, 0.4);
+}
+/* .buttonAdd{
+    background-color: #0e49b5;
+    color: white;
+} */
+.buttonAdd {
+    
+    align-self: center;
+    margin: 25px;
+    background-color: #5363db;
+    color: white;
+    font-weight: bold;
+    /* font-family: 'open sans'; */
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    /* padding: 19px; */
+    height: 50px;
+    width: 170px;
+    /* margin-left: auto; */
+    /* margin-top: 15px; */
+    cursor: pointer;
+    opacity: 1;
+    
+    transition: opacity 0.2s;    
+}
+.buttonAdd:hover {
+    opacity: 0.7;
+}
+
+.imgItem{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.heart{
+    fill: darkgreen;
+  }
+.orders{
+    margin-right: 10px;
+    margin-top: 10px;
+    /* font-weight: bolder; */
+    font-size: 14px;
+}
+.positiveMark{
+    margin-top: 10px;
+}
