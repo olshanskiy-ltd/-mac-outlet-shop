@@ -59,10 +59,10 @@ const renderCard = good => {
             
             <div class="cardTopPart" id='${(good.id)}'>
             
-                    <img class="imgItem" src="/img/${good.imgUrl}"width = '200px', min-width = '100px'  alt="picture">
+                    <img class="imgItem" src="img/${good.imgUrl}"width = '200px', min-width = '100px'  alt="picture">
                     <h2>${good.name}</h2>
                     
-                    <img class="favorite" src="/img/icons/like_empty.svg" alt=".">
+                    <img class="favorite" src="img/icons/like_empty.svg" alt=".">
                     <div class="reviews">${good.orderInfo.inStock} left in stock</div>
                     <div class="reviews">Price: ${good.price}  $ </div>
                     
@@ -70,7 +70,7 @@ const renderCard = good => {
                 </div>
             <div class="cardFloor">
                         
-                        <img class="heart" src="/img/icons/like_filled.svg" alt="." >
+                        <img class="heart" src="img/icons/like_filled.svg" alt="." >
                         
                         <div class="positiveMark"> ${good.orderInfo.reviews} % positive reviews</br>${mark()}</div>
                         
