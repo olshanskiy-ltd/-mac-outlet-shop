@@ -1,3 +1,8 @@
+h1, h2,h3, h4, h5, h6, p, body{
+    padding: 0mm;
+    margin: 0;
+}
+
 button {
     list-style-type: style none;;
 }
@@ -19,7 +24,7 @@ button {
     height: 100%;
 }
 
-.card{
+.card{  
     min-width: 260px;
     border-radius: 7px;
     margin: 20px;
@@ -87,7 +92,7 @@ button {
     margin: 25px;
     background-color: #5363db;
     color: white;
-    font-weight: bold;
+    /* font-weight: bold; */
     /* font-family: 'open sans'; */
     border: none;
     outline: none;
@@ -123,4 +128,12 @@ button {
 }
 .positiveMark{
     margin-top: 10px;
+}
+
+h2{
+    margin: 20px;
+}
+
+.modal{
+    display: none;
 }
